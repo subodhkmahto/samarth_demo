@@ -1,0 +1,22 @@
+{
+  "name": "vendor_name/dev_subodh",
+  "description": "a simple package for demo purposes",
+  "minimum-stability": "stable",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "subodh",
+      "email": "Subodh@samarth.ac.in"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Subodh_Package\\": "app/"
+    }
+  },
+
+  "require": {
+  }
+}
